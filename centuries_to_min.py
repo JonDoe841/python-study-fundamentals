@@ -1,0 +1,6 @@
+num = int(input())
+years = round(num * 100)
+days = round(years * 365.2422)
+hours = round(days * 24)
+minute = round(hours * 60)
+print(f"{num} centuries = {years} years = {days:.0f} days = {hours:.0f} hours = {minute:.0f} minutes")
